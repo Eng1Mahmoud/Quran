@@ -1,0 +1,215 @@
+body,
+html,
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-text-decoration: rtl;
+          text-decoration: rtl;
+  scroll-behavior: smooth;
+}
+
+.nav .nav-item {
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav .nav-item:hover {
+  border: 1px solid darkgray;
+  background: rgba(169, 169, 169, 0.521);
+}
+.nav .nav-item:hover .nav-link {
+  color: white;
+}
+.nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.hero {
+  background-image: url("../images/back2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: calc(100vh - 120px);
+}
+.hero .head {
+  background: rgba(255, 255, 255, 0.755);
+  width: 60%;
+}
+.hero .head h1 {
+  line-height: 55px;
+}
+
+.all-auth,
+.all-soura {
+  background-image: url("../images/4403214_18410.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.all-auth .louding,
+.all-soura .louding {
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50vh;
+}
+.all-auth .louding .content,
+.all-soura .louding .content {
+  font-size: 30px;
+  color: rgba(22, 16, 16, 0.916);
+}
+.all-auth .louding .content .fa-spinner,
+.all-soura .louding .content .fa-spinner {
+  animation: louding 0.5s linear infinite reverse;
+  -webkit-animation: louding 0.5s linear infinite reverse;
+  font-size: 50px;
+}
+.all-auth .auth,
+.all-auth .soura,
+.all-soura .auth,
+.all-soura .soura {
+  background: rgba(169, 169, 169, 0.616);
+  box-shadow: 0px 0px 6px 0px rgba(169, 169, 169, 0.716);
+  color: white;
+}
+.all-auth .auth i,
+.all-auth .soura i,
+.all-soura .auth i,
+.all-soura .soura i {
+  color: #dee2e6;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+.all-auth .auth i:hover,
+.all-auth .soura i:hover,
+.all-soura .auth i:hover,
+.all-soura .soura i:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.aduio {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: white;
+}
+.aduio audio {
+  width: 90%;
+}
+
+.mainlouding {
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.mainlouding img {
+  animation: scale 0.5s linear infinite reverse;
+  -webkit-animation: scale 0.5s linear infinite alternate-reverse;
+  font-size: 55px;
+  width: 80px;
+  height: 80px;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+}
+
+.arrow-top {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  color: darkgray;
+  background: white;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes louding {
+  0% {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+  }
+}
+
+@keyframes louding {
+  0% {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes scale {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+}
+@media (max-width: 576px) {
+  .hero .head {
+    width: 95%;
+  }
+}/*# sourceMappingURL=style.css.map */
