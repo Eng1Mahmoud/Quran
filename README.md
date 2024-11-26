@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Quran Leasing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Quran Leasing App** is a web application developed for leasing Quranic content in a user-friendly and accessible way. The app offers a seamless leasing experience for users who want to explore Quranic content for specific periods, using modern web technologies.
 
-## Available Scripts
+## 🚀 Live Demo
+Explore the live demo here: [Quran Leasing App](https://quran-neon.vercel.app/)
 
-In the project directory, you can run :
+## ✨ Features
+- **Lease Quranic Content**: Provides the ability to lease access to different Quranic chapters (Surahs) or verses for a set time.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices for flexible access.
+- **React Router**: Enables smooth page navigation for leasing options and user accounts.
+- **Redux Integration**: Global state management to handle leasing details, account information, and more.
+- **Bootstrap**: Responsive and modern UI with components for easy interaction.
+- **Axios**: Efficient data fetching for Quranic content and leasing data.
+- **Web Vitals**: Tracks performance metrics to ensure a smooth user experience.
 
-### `npm start`
+## 🛠️ Technologies Used
+- **React (18.2.0)**: Framework for building dynamic user interfaces with reusable components.
+- **Redux (8.0.2)**: Manages the global state of leasing data, user information, etc.
+- **React Router (6.3.0)**: Routing library to handle multiple pages for leasing options, user accounts, etc.
+- **Bootstrap (5.2.0)**: Provides a flexible and responsive layout for the app.
+- **Axios (0.27.2)**: Used for making HTTP requests to fetch leasing data and Quranic content.
+- **Web Vitals (2.1.4)**: Monitors and tracks performance metrics to optimize the user experience.
+## ⚙️ Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test` 
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Eng1Mahmoud/Quran.git
+   cd Quran
